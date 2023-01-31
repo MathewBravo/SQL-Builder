@@ -1,0 +1,42 @@
+{
+  "name": "sql-builder",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev -p 1420",
+    "build": "next build && next export -o dist",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/carousel": "^5.10.2",
+    "@mantine/core": "^5.10.2",
+    "@mantine/dates": "^5.10.2",
+    "@mantine/dropzone": "^5.10.2",
+    "@mantine/form": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
+    "@mantine/modals": "^5.10.2",
+    "@mantine/notifications": "^5.10.2",
+    "@mantine/nprogress": "^5.10.2",
+    "@mantine/prism": "^5.10.2",
+    "@mantine/spotlight": "^5.10.2",
+    "@mantine/tiptap": "^5.10.2",
+    "@tabler/icons": "^1.119.0",
+    "@tauri-apps/api": "^1.2.0",
+    "@tiptap/extension-link": "^2.0.0-beta.209",
+    "@tiptap/react": "^2.0.0-beta.209",
+    "@tiptap/starter-kit": "^2.0.0-beta.209",
+    "dayjs": "^1.11.7",
+    "embla-carousel-react": "^7.0.9",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "@types/node": "^18.7.11",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.7.4"
+  }
+}
